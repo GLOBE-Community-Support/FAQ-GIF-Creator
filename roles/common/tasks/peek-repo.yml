@@ -1,0 +1,6 @@
+# peek repo needs to be added
+- name: ensure peek repo is available
+  apt_repository:
+    repo: 'ppa:peek-developers/stable'
+    state: present
+  become: yes

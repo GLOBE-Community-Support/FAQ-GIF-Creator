@@ -1,0 +1,4 @@
+# check if peek is on remote server
+- name: ensure GIF creator program is installed
+  apt: name=peek state=present update_cache=yes
+  become: yes

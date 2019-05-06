@@ -1,0 +1,4 @@
+# include other YAML files with tasks here
+- include: bootstrap.yml
+- include: peek-repo.yml
+- include: peek-apt.yml
