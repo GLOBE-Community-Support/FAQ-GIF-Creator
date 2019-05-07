@@ -2,7 +2,7 @@
 
 Allows CST to create animated GIF images for FAQ pages by provisioning a desktop system with the GIF software ready to use
 
-Ansible and Vagrant need to be pre-installed and setup on the host machine before running this code
+Ansible, VirtualBox and Vagrant need to be pre-installed and setup on the host machine before running this code
 
 Instructions:
 - vagrant up
