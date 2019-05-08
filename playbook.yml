@@ -2,6 +2,5 @@
 - name: apply local configuration to servers listed in hosts
   gather_facts: false
   hosts: all
-  user: ansible
   roles:
     - common
